@@ -37,7 +37,7 @@ let apiKey = "patg3nVCYWdoRthJn.56198a4363e0982055386462c75e70566e51bc2b4bac7cd6
 let airtableUrl = "https://api.airtable.com/v0/appAcgdXpcBoOwP5X/tblk48SN08xOlGQz9"
 let apiUrl = "http://api:5000";
 
-async function fetchGroups(){
+async function fetchUsers(){
 
     let result = await fetch(airtableUrl,{
         headers: {
@@ -69,6 +69,7 @@ client.on('message', async (message) => {
 
 
     let groupParticipantsNumber = (await message.getChat()).isGroup ? (await message.getChat()).participants.length : 0
+    let isGroup = (await message.getChat()).isGroup
 
     // if(message.body.toLocaleLowerCase().startsWith("test")){
     //     console.log((await message.getChat()).id.user)
@@ -77,7 +78,7 @@ client.on('message', async (message) => {
     // }
 
 
-    if(message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && (await message.getChat()).isGroup  && (groupParticipantsNumber >= 11 || (await message.getChat()).id.user === "120363213455576189")){
+    if(message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && isGroup  && (await message.getChat()).id.user === "120363213455576189"){
 
         requestOptions.body = JSON.stringify({"key": message.body})
         let songPath = await fetch(apiUrl, requestOptions)
@@ -116,16 +117,21 @@ client.on('message', async (message) => {
         }
     }
 
-    else if (message.body.toLocaleLowerCase().startsWith("!album ") && message.body.length > 7 && (await message.getChat()).isGroup){
+    else if (message.body.toLocaleLowerCase().startsWith("!album ") && message.body.length > 7 && isGroup){
         await message.reply("Album request is still in development...")
     }
 
-    else if (message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && (await message.getChat()).isGroup  && groupParticipantsNumber < 11){
+    else if (message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && isGroup  && groupParticipantsNumber < 11){
         await message.reply(`The music bot only works in a group with at least 10 participants. Please add ${11 - (await message.getChat()).participants.length} more people to the group`)
     }
-    else if (message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && !(await message.getChat()).isGroup){
+    else if (message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && !isGroup){
         await message.reply("For now the bot can only work in a group chat. Please add me in a group to  request for songs...")
     }
+
+    if(message.body.toLocaleLowerCase().startsWith("!song ") && message.body.length > 6 && isGroup  && groupParticipantsNumber >= 11){
+        await message.reply("Join the community...")
+    }
+
 
 
 });
