@@ -2,7 +2,7 @@ const {MessageMedia} = require("whatsapp-web.js");
 
 const fs = require("fs");
 
-let apiUrl = "http://127.0.0.1:5000";
+let apiUrl = "http://ww-js-musicbot-api.onrender.com";
 // let apiUrl = "http://api:5000";
 let requestOptions = {
     method: 'POST',
@@ -24,7 +24,7 @@ const sendLyrics =  async (message,client) => {
             return "Error"
         }).then((data) => {
             return data
-        }).catch(error => console.log('an error has occurred while fetching https://api:5000/lyrics ', error))
+        }).catch(error => console.log('an error has occurred while fetching https://127.0.0.1:5000/lyrics ', error))
 
 
     if (typeof lyrics === "object" && !Object.keys(lyrics).length == 0){
