@@ -2,8 +2,8 @@ const {MessageMedia} = require("whatsapp-web.js");
 
 const fs = require("fs");
 
-// let apiUrl = "http://ww-js-musicbot-api.onrender.com";
-let apiUrl = "http://52.41.36.82:5000";
+let apiUrl = "http://ww-js-musicbot-api.onrender.com";
+// let apiUrl = "http://52.41.36.82:5000";
 let requestOptions = {
     method: 'POST',
     headers: {"Content-Type": "application/json"},
