@@ -1,29 +1,6 @@
-2024/04/13-08:33:50.459 78cc Reusing MANIFEST C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/13-08:33:50.460 78cc Recovering log #39
-2024/04/13-08:33:50.460 78cc Reusing old log C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000039.log 
-2024/04/13-08:33:50.461 78cc Delete type=2 #38
-2024/04/13-08:33:51.058 35e0 Compacting 1@1 + 1@2 files
-2024/04/13-08:33:51.105 35e0 Generated table #43@1: 11789 keys, 424101 bytes
-2024/04/13-08:33:51.105 35e0 Compacted 1@1 + 1@2 files => 424101 bytes
-2024/04/13-08:33:51.107 35e0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/04/13-08:33:51.107 35e0 Delete type=2 #35
-2024/04/13-08:33:51.108 35e0 Delete type=2 #41
-2024/04/13-08:34:00.653 3918 Level-0 table #45: started
-2024/04/13-08:34:00.658 3918 Level-0 table #45: 8351 bytes OK
-2024/04/13-08:34:00.660 3918 Delete type=0 #39
-2024/04/13-08:34:00.660 3918 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/04/13-08:34:00.661 3918 Level-0 table #47: started
-2024/04/13-08:34:00.666 3918 Level-0 table #47: 455 bytes OK
-2024/04/13-08:34:00.668 3918 Delete type=0 #44
-2024/04/13-08:34:00.668 35e0 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 55486 : 0
-2024/04/13-08:34:00.668 35e0 Compacting 1@0 + 1@1 files
-2024/04/13-08:34:00.673 35e0 Generated table #48@0: 263 keys, 5471 bytes
-2024/04/13-08:34:00.673 35e0 Compacted 1@0 + 1@1 files => 5471 bytes
-2024/04/13-08:34:00.674 35e0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/13-08:34:00.674 35e0 Delete type=2 #47
-2024/04/13-08:34:00.675 35e0 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 55486 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/04/13-08:34:03.217 35e0 Compacting 1@1 + 1@2 files
-2024/04/13-08:34:03.238 35e0 Generated table #49@1: 11891 keys, 427482 bytes
-2024/04/13-08:34:03.238 35e0 Compacted 1@1 + 1@2 files => 427482 bytes
-2024/04/13-08:34:03.240 35e0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/04/13-08:34:03.240 35e0 Delete type=2 #45
+2024/04/13-08:46:27.180 54bc Reusing MANIFEST C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/13-08:46:27.181 54bc Recovering log #46
+2024/04/13-08:46:27.252 54bc Reusing old log C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000046.log 
+2024/04/13-08:46:27.253 54bc Delete type=2 #43
+2024/04/13-08:46:27.253 54bc Delete type=2 #48
+2024/04/13-08:46:28.344 54bc Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
