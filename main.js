@@ -206,6 +206,7 @@ class Bot{
         });
     }
 
+
     getMessageCount(){
         return this.messageCount
     }
