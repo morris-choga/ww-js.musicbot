@@ -62,7 +62,6 @@ class Bot{
             console.log(`bot ${sessionName} ready!`);
         });
 
-
         this.client.on('message', async (message) => {
             let userId = (await message.id.participant);
             let song_group = "120363223962652835"
