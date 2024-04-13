@@ -1,6 +1,0 @@
-2024/04/13-08:46:27.180 54bc Reusing MANIFEST C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/13-08:46:27.181 54bc Recovering log #46
-2024/04/13-08:46:27.252 54bc Reusing old log C:\Users\Mchog\WebstormProjects\ww-js.musicbot\sessions\session-9552\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000046.log 
-2024/04/13-08:46:27.253 54bc Delete type=2 #43
-2024/04/13-08:46:27.253 54bc Delete type=2 #48
-2024/04/13-08:46:28.344 54bc Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
