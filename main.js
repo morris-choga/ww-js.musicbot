@@ -22,7 +22,7 @@ class Bot{
             //     }
             // }),
             authStrategy: new LocalAuth({
-                dataPath: "./sessions",
+                dataPath: "./sessions/apk",
                 // dataPath: "C:\\Users\\Mchog\\WebstormProjects\\ww-js.musicbot\\sessions",
                 clientId: `${sessionName}`
             }),
