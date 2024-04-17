@@ -1,0 +1,12 @@
+[0417/092352.577:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0417/092352.578:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0417/092352.578:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0417/092356.194:INFO:CONSOLE(6)] "[Report Only] Refused to load the script 'https://static.whatsapp.net/rsrc.php/v3/yd/r/cBG75SgP6zl.js?_nc_x=Ij3Wp8lg5Kz' because it violates the following Content Security Policy directive: "default-src data: blob: chrome-extension: 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback.
+", source: https://web.whatsapp.com/sw.js (6)
+[0417/092356.195:INFO:CONSOLE(6)] "[Report Only] Refused to load the script 'https://static.whatsapp.net/rsrc.php/v3/yd/r/cBG75SgP6zl.js?_nc_x=Ij3Wp8lg5Kz' because it violates the following Content Security Policy directive: "default-src data: blob: chrome-extension: 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback.
+", source: https://web.whatsapp.com/sw.js (6)
+[0417/092400.556:INFO:CONSOLE(137)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yd/r/cBG75SgP6zl.js?_nc_x=Ij3Wp8lg5Kz (137)
+[0417/092400.591:INFO:CONSOLE(1)] "[Report Only] Refused to connect to 'https://web.whatsapp.com/sw/log/init/' because it violates the following Content Security Policy directive: "default-src data: blob: chrome-extension: 'unsafe-inline' 'unsafe-eval'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback.
+", source: https://web.whatsapp.com/sw.js (1)
+[0417/092400.591:INFO:CONSOLE(1)] "[Report Only] Refused to connect to 'https://web.whatsapp.com/sw/log/init/' because it violates the following Content Security Policy directive: "default-src data: blob: chrome-extension: 'unsafe-inline' 'unsafe-eval'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback.
+", source: https://web.whatsapp.com/sw.js (1)
