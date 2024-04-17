@@ -56,6 +56,16 @@ class Bot{
 
         });
 
+        this.client.on("disconnected",(reason)=>{
+            console.log(`Client has been disconnected Morris because of ${reason} `);
+
+            if(reInitializeCount < 15 && reason === 'NAVIGATION') {
+                reInitializeCount++;
+                this.client.initialize();
+                return;
+            }
+        });
+
 
         this.client.on('ready', () => {
             console.log(`bot ${sessionName} ready!`);
